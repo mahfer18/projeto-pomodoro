@@ -1,0 +1,23 @@
+*{
+    text-align: center;
+    background-color: black;
+}
+h1, h2, h3{
+    color: aliceblue;
+}
+button{
+    color: aliceblue;
+}
+button:hover{
+    cursor: pointer;
+    
+}
+.inicio{
+    background-color: darkgreen;
+}
+.pausa{
+    background-color: darkgreen;
+}
+.parar{
+    background-color: darkgreen;
+}
