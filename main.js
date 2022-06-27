@@ -4,7 +4,7 @@ var min = 24;
 var interval;
 
 function start(){
-    interval =setInterval(watch, 10);
+    interval =setInterval(watch, 1000);
 }
 function pause(){
     clearInterval(interval);
@@ -30,6 +30,7 @@ function watch(){
         document.getElementById('count').innerText = '00:00';
         clearInterval(interval);
         alarme.play();
+        
     }
 
     document.getElementById('watch').innerText = min +':'+ sec;
@@ -42,7 +43,7 @@ var intervalBreak;
 
 
 function startBreak(){
-    intervalBreak = setInterval(count,10);
+    intervalBreak = setInterval(count,1000);
 
 }
 function pauseBreak(){
@@ -72,6 +73,7 @@ function count(){
         clearInterval(intervalBreak);
         document.getElementById('count').innerText = '00:00';
         alarme.play();
+        
     
         
     }

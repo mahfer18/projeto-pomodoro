@@ -1,4 +1,24 @@
-*{
-    text-align: center;
-    background-color: beige;
+body{
+    text-align: center; 
+    background-color: #1C1C1C;
+}
+h1, h2{
+    color: #f8eded;
+    font-size: 2.5rem;
+}
+
+button{
+    height: 2rem;
+    width: 6rem;
+    border-radius: 50%;
+    border-style: double;
+}
+.start, .breakStart{
+    background-color: rgb(45, 212, 101);
+}
+.pause, .breakPause{
+    background-color: rgb(243, 243, 123);
+}
+.stop, .breakStop {
+    background-color: rgba(228, 63, 63, 0.904);
 }
