@@ -8,28 +8,26 @@
     <title>Cronômetro Pomodoro</title>
 </head>
 <body>
-    <h1>Cronômetro Pomodoro</h1>
-
+    <h1>TIMER POMODORO</h1>
     <div class="timer">
-        <h2>00:00</h2>
-        <div >
-            <button class="inicio" onclick="start()">INICIO</button>
-            <button class="pausa" onclick="pause()">PAUSAR</button>
-            <button class="parar" onclick="stop()">PARAR</button>
-        </div>
-        <audio src="https://soundbible.com/mp3/service-bell_daniel_simion.mp3"></audio>
+        <h2> TIMER </h2>
+        <h2 id = 'watch'>25:00</h2>
+        <button class="start" onclick="start()"> Iniciar</button>
+        <button class="pause" onclick="pause()"> Pausar</button>
+        <button class="stop" onclick="stop()"> Parar</button>
+        <audio src="http://soundbible.com/mp3/service-bell_daniel_simion.mp3"
+      ></audio>
     </div>
-    
-    <div class="pause">
-        <h2>Tempo de pausa</h2>
-        <h3>00:00</h3>
-        <div >
-            <button class="inicio" onclick="startBreak()">INICIO</button>
-            <button class="pausa" onclick="pauseBreak()">PAUSAR</button>
-            <button class="parar" onclick="stopBreak()">PARAR</button>
-        </div>
-        <audio src="https://soundbible.com/mp3/service-bell_daniel_simion.mp3"></audio>
+    <div>
+        <h2> INTERVALO </h2>
+        <h2 id ='count'>05:00</h2>
+        <button class="breakStart" onclick="startBreak()">Start Break</button>
+        <button class="breakPause" onclick="pauseBreak()">Pause Break</button>
+        <button class="breakStop" onclick="stopBreak()">Stop Break</button>
+      
     </div>
+
+        
     <script src="main.js"></script>
     
 </body>
